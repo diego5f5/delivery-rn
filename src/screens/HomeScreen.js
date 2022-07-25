@@ -31,7 +31,7 @@ const HomeScreen = () => {
   }, []);
 
   return (
-    <SafeAreaView className={`${Platform.OS === "android" ? "pt-8" : ""}`}>
+    <SafeAreaView className={`${Platform.OS === "android" && "pt-6"}`}>
       {/* Header */}
       <View className="flex-row pb-3 items-center mx-4 space-x-2">
         <Image
@@ -43,13 +43,14 @@ const HomeScreen = () => {
 
         <View className="flex-1">
           <Text className="font-bold text-gray-400 text-xs">Deliver Now!</Text>
-          <Text className="font-bold text-xl">
-            Current Location
+
+          <View className="flex-row items-center">
+            <Text className="font-bold text-xl">Current Location</Text>
             <ChevronDownIcon size={20} color="#00CCBB" />
-          </Text>
+          </View>
         </View>
 
-        <UserIcon size={35} color="#00CCBB" />
+        <UserIcon size={32} color="#00CCBB" />
       </View>
 
       {/* Search */}
@@ -59,6 +60,7 @@ const HomeScreen = () => {
           <TextInput
             placeholder="Restaurants and cuisines"
             keyboardType="default"
+            className="flex-1"
           />
         </View>
 

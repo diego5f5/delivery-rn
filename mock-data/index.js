@@ -52,7 +52,24 @@ export const FEATURED_CATEGORIES_MOCK = [
         genre: "Japanese",
         address: "123 Main St",
         short_description: "This is a test description",
-        dishes: [],
+        dishes: [
+          {
+            id: "1",
+            name: "Nigiri",
+            short_description:
+              "A topping, usually fish, served on top of sushi rice",
+            price: 4.5,
+            image: "https://cdn.diferenca.com/imagens/niguiri-0-cke.jpg",
+          },
+          {
+            id: "2",
+            name: "Nigiri",
+            short_description:
+              "A topping, usually fish, served on top of sushi rice",
+            price: 4.5,
+            image: "https://cdn.diferenca.com/imagens/niguiri-0-cke.jpg",
+          },
+        ],
         long: 20,
         lat: 0,
       },
@@ -65,7 +82,16 @@ export const FEATURED_CATEGORIES_MOCK = [
         genre: "Japanese",
         address: "123 Main St",
         short_description: "This is a test description",
-        dishes: [],
+        dishes: [
+          {
+            id: "1",
+            name: "Nigiri",
+            short_description:
+              "A topping, usually fish, served on top of sushi rice",
+            price: 2.99,
+            image: "https://cdn.diferenca.com/imagens/niguiri-0-cke.jpg",
+          },
+        ],
         long: 20,
         lat: 0,
       },
@@ -78,7 +104,16 @@ export const FEATURED_CATEGORIES_MOCK = [
         genre: "Japanese",
         address: "123 Main St",
         short_description: "This is a test description",
-        dishes: [],
+        dishes: [
+          {
+            id: "1",
+            name: "Nigiri",
+            short_description:
+              "A topping, usually fish, served on top of sushi rice",
+            price: 2.99,
+            image: "https://cdn.diferenca.com/imagens/niguiri-0-cke.jpg",
+          },
+        ],
         long: 20,
         lat: 0,
       },
@@ -98,7 +133,16 @@ export const FEATURED_CATEGORIES_MOCK = [
         genre: "Japanese",
         address: "123 Main St",
         short_description: "This is a test description",
-        dishes: [],
+        dishes: [
+          {
+            id: "1",
+            name: "Nigiri",
+            short_description:
+              "A topping, usually fish, served on top of sushi rice",
+            price: 2.99,
+            image: "https://cdn.diferenca.com/imagens/niguiri-0-cke.jpg",
+          },
+        ],
         long: 20,
         lat: 0,
       },
@@ -111,7 +155,16 @@ export const FEATURED_CATEGORIES_MOCK = [
         genre: "Japanese",
         address: "123 Main St",
         short_description: "This is a test description",
-        dishes: [],
+        dishes: [
+          {
+            id: "1",
+            name: "Nigiri",
+            short_description:
+              "A topping, usually fish, served on top of sushi rice",
+            price: 2.99,
+            image: "https://cdn.diferenca.com/imagens/niguiri-0-cke.jpg",
+          },
+        ],
         long: 20,
         lat: 0,
       },
@@ -124,7 +177,16 @@ export const FEATURED_CATEGORIES_MOCK = [
         genre: "Japanese",
         address: "123 Main St",
         short_description: "This is a test description",
-        dishes: [],
+        dishes: [
+          {
+            id: "1",
+            name: "Nigiri",
+            short_description:
+              "A topping, usually fish, served on top of sushi rice",
+            price: 2.99,
+            image: "https://cdn.diferenca.com/imagens/niguiri-0-cke.jpg",
+          },
+        ],
         long: 20,
         lat: 0,
       },
@@ -144,7 +206,16 @@ export const FEATURED_CATEGORIES_MOCK = [
         genre: "Japanese",
         address: "123 Main St",
         short_description: "This is a test description",
-        dishes: [],
+        dishes: [
+          {
+            id: "1",
+            name: "Nigiri",
+            short_description:
+              "A topping, usually fish, served on top of sushi rice",
+            price: 2.99,
+            image: "https://cdn.diferenca.com/imagens/niguiri-0-cke.jpg",
+          },
+        ],
         long: 20,
         lat: 0,
       },
@@ -157,7 +228,16 @@ export const FEATURED_CATEGORIES_MOCK = [
         genre: "Japanese",
         address: "123 Main St",
         short_description: "This is a test description",
-        dishes: [],
+        dishes: [
+          {
+            id: "1",
+            name: "Nigiri",
+            short_description:
+              "A topping, usually fish, served on top of sushi rice",
+            price: 2.99,
+            image: "https://cdn.diferenca.com/imagens/niguiri-0-cke.jpg",
+          },
+        ],
         long: 20,
         lat: 0,
       },
@@ -170,7 +250,16 @@ export const FEATURED_CATEGORIES_MOCK = [
         genre: "Japanese",
         address: "123 Main St",
         short_description: "This is a test description",
-        dishes: [],
+        dishes: [
+          {
+            id: "1",
+            name: "Nigiri",
+            short_description:
+              "A topping, usually fish, served on top of sushi rice",
+            price: 2.99,
+            image: "https://cdn.diferenca.com/imagens/niguiri-0-cke.jpg",
+          },
+        ],
         long: 20,
         lat: 0,
       },

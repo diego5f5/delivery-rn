@@ -24,6 +24,7 @@ const FeaturedRow = ({ title, description, restaurants }) => {
         {restaurants.map((restaurant) => (
           <RestaurantCard
             key={restaurant.id}
+            id={restaurant.id}
             imgUrl={restaurant.imgUrl}
             title={restaurant.title}
             rating={restaurant.rating}
