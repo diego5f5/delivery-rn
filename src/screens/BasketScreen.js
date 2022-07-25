@@ -62,7 +62,7 @@ const BasketScreen = () => {
 
         <View className="flex-row items-center space-x-4 px-4 py-3 bg-white my-5">
           <Image
-            source={{ uri: restaurant.imgUrl }}
+            source={require("../../assets/deliveryProfile.png")}
             className="h-7 w-7 bg-gray-300 p-4 rounded-full"
           />
           <Text className="flex-1">Deliver in 50-75 min</Text>
@@ -124,7 +124,7 @@ const BasketScreen = () => {
           </View>
 
           <TouchableOpacity
-            onPress={() => navigation.navigate("PreparingOrderScreen")}
+            onPress={() => navigation.navigate("PreparingOrder")}
             className="rounded-lg bg-[#00CCBB] p-4"
           >
             <Text className="text-center text-white text-lg font-bold">

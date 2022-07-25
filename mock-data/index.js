@@ -2,37 +2,37 @@ export const CATEGORIES_MOCK = [
   {
     id: "1",
     imgUrl:
-      "https://www.japan.go.jp/kizuna/_src/7989285/sushi_robots_01.jpg?v=1646641593194",
+      "https://cdn.pixabay.com/photo/2014/05/26/14/53/sushi-354628_960_720.jpg",
     title: "Testing 1",
   },
   {
     id: "2",
     imgUrl:
-      "https://www.japan.go.jp/kizuna/_src/7989285/sushi_robots_01.jpg?v=1646641593194",
+      "https://cdn.pixabay.com/photo/2017/01/03/11/33/pizza-1949183_960_720.jpg",
     title: "Testing 2",
   },
   {
     id: "3",
     imgUrl:
-      "https://www.japan.go.jp/kizuna/_src/7989285/sushi_robots_01.jpg?v=1646641593194",
+      "https://cdn.pixabay.com/photo/2021/02/15/11/43/hot-dog-6017568_960_720.jpg",
     title: "Testing 3",
   },
   {
     id: "4",
     imgUrl:
-      "https://www.japan.go.jp/kizuna/_src/7989285/sushi_robots_01.jpg?v=1646641593194",
+      "https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_960_720.jpg",
     title: "Testing 4",
   },
   {
     id: "5",
     imgUrl:
-      "https://www.japan.go.jp/kizuna/_src/7989285/sushi_robots_01.jpg?v=1646641593194",
+      "https://cdn.pixabay.com/photo/2018/08/16/22/59/ice-cream-3611698_960_720.jpg",
     title: "Testing 5",
   },
   {
     id: "6",
     imgUrl:
-      "https://www.japan.go.jp/kizuna/_src/7989285/sushi_robots_01.jpg?v=1646641593194",
+      "https://cdn.pixabay.com/photo/2018/11/08/22/12/beer-3803425_960_720.jpg",
     title: "Testing 6",
   },
 ];
@@ -46,12 +46,13 @@ export const FEATURED_CATEGORIES_MOCK = [
       {
         id: "123",
         imgUrl:
-          "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8&w=1000&q=80",
+          "https://cdn.pixabay.com/photo/2017/03/29/20/58/maki-roll-2186518_960_720.jpg",
         title: "Yo! Sushi",
         rating: 4.5,
         genre: "Japanese",
         address: "123 Main St",
-        short_description: "This is a test description",
+        short_description:
+          "Explore our menu for dishes made from the freshest ingredients, sustainably-sourced seafood and authentic products.",
         dishes: [
           {
             id: "1",
@@ -59,63 +60,59 @@ export const FEATURED_CATEGORIES_MOCK = [
             short_description:
               "A topping, usually fish, served on top of sushi rice",
             price: 4.5,
-            image: "https://cdn.diferenca.com/imagens/niguiri-0-cke.jpg",
+            image:
+              "https://st2.depositphotos.com/38693846/47810/i/450/depositphotos_478105876-stock-photo-homemade-sushi-salmon-japanese-food.jpg",
           },
           {
             id: "2",
-            name: "Nigiri",
+            name: "Makizushi",
             short_description:
-              "A topping, usually fish, served on top of sushi rice",
-            price: 4.5,
-            image: "https://cdn.diferenca.com/imagens/niguiri-0-cke.jpg",
+              "Makizushi is usually wrapped in nori, a sheet of dehydrated seaweed that houses the rice and stuffing.",
+            price: 3.99,
+            image:
+              "https://static3.depositphotos.com/1010613/261/i/450/depositphotos_2614550-stock-photo-makizushi-and-soy-sauce.jpg",
           },
         ],
-        long: 20,
-        lat: 0,
+        long: -0.1323491652193389,
+        lat: 51.51923880936022,
       },
       {
         id: "321",
         imgUrl:
-          "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8&w=1000&q=80",
+          "https://cdn.pixabay.com/photo/2017/02/15/10/57/pizza-2068272_960_720.jpg",
         title: "Yo! Sushi",
         rating: 4.5,
         genre: "Japanese",
         address: "123 Main St",
-        short_description: "This is a test description",
+        short_description:
+          "Explore our menu for dishes made from the freshest ingredients, sustainably-sourced seafood and authentic products.",
         dishes: [
           {
-            id: "1",
-            name: "Nigiri",
+            id: "3",
+            name: "Temaki",
             short_description:
-              "A topping, usually fish, served on top of sushi rice",
-            price: 2.99,
-            image: "https://cdn.diferenca.com/imagens/niguiri-0-cke.jpg",
+              "The conelike form of temaki incorporates rice, specially prepared seaweed called nori, and a variety of fillings known as neta.",
+            price: 2.59,
+            image:
+              "https://st2.depositphotos.com/1373322/9265/i/450/depositphotos_92656500-stock-photo-japanese-salmon-temaki-sushi-ginger.jpg",
           },
         ],
-        long: 20,
-        lat: 0,
+        long: -0.1323491652193389,
+        lat: 51.51923880936022,
       },
       {
         id: "213",
         imgUrl:
-          "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8&w=1000&q=80",
+          "https://cdn.pixabay.com/photo/2017/03/29/20/58/maki-roll-2186518_960_720.jpg",
         title: "Yo! Sushi",
         rating: 4.5,
         genre: "Japanese",
         address: "123 Main St",
-        short_description: "This is a test description",
-        dishes: [
-          {
-            id: "1",
-            name: "Nigiri",
-            short_description:
-              "A topping, usually fish, served on top of sushi rice",
-            price: 2.99,
-            image: "https://cdn.diferenca.com/imagens/niguiri-0-cke.jpg",
-          },
-        ],
-        long: 20,
-        lat: 0,
+        short_description:
+          "Explore our menu for dishes made from the freshest ingredients, sustainably-sourced seafood and authentic products.",
+        dishes: [],
+        long: -0.1323491652193389,
+        lat: 51.51923880936022,
       },
     ],
   },
@@ -127,68 +124,44 @@ export const FEATURED_CATEGORIES_MOCK = [
       {
         id: "123",
         imgUrl:
-          "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8&w=1000&q=80",
+          "https://cdn.pixabay.com/photo/2017/06/06/22/37/italian-cuisine-2378729_960_720.jpg",
         title: "Yo! Sushi",
         rating: 4.5,
         genre: "Japanese",
         address: "123 Main St",
-        short_description: "This is a test description",
-        dishes: [
-          {
-            id: "1",
-            name: "Nigiri",
-            short_description:
-              "A topping, usually fish, served on top of sushi rice",
-            price: 2.99,
-            image: "https://cdn.diferenca.com/imagens/niguiri-0-cke.jpg",
-          },
-        ],
-        long: 20,
-        lat: 0,
+        short_description:
+          "Explore our menu for dishes made from the freshest ingredients, sustainably-sourced seafood and authentic products.",
+        dishes: [],
+        long: -0.1323491652193389,
+        lat: 51.51923880936022,
       },
       {
         id: "321",
         imgUrl:
-          "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8&w=1000&q=80",
+          "https://cdn.pixabay.com/photo/2017/01/26/02/06/platter-2009590_960_720.jpg",
         title: "Yo! Sushi",
         rating: 4.5,
         genre: "Japanese",
         address: "123 Main St",
-        short_description: "This is a test description",
-        dishes: [
-          {
-            id: "1",
-            name: "Nigiri",
-            short_description:
-              "A topping, usually fish, served on top of sushi rice",
-            price: 2.99,
-            image: "https://cdn.diferenca.com/imagens/niguiri-0-cke.jpg",
-          },
-        ],
-        long: 20,
-        lat: 0,
+        short_description:
+          "Explore our menu for dishes made from the freshest ingredients, sustainably-sourced seafood and authentic products.",
+        dishes: [],
+        long: -0.1323491652193389,
+        lat: 51.51923880936022,
       },
       {
         id: "213",
         imgUrl:
-          "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8&w=1000&q=80",
+          "https://cdn.pixabay.com/photo/2017/03/29/20/58/maki-roll-2186518_960_720.jpg",
         title: "Yo! Sushi",
         rating: 4.5,
         genre: "Japanese",
         address: "123 Main St",
-        short_description: "This is a test description",
-        dishes: [
-          {
-            id: "1",
-            name: "Nigiri",
-            short_description:
-              "A topping, usually fish, served on top of sushi rice",
-            price: 2.99,
-            image: "https://cdn.diferenca.com/imagens/niguiri-0-cke.jpg",
-          },
-        ],
-        long: 20,
-        lat: 0,
+        short_description:
+          "Explore our menu for dishes made from the freshest ingredients, sustainably-sourced seafood and authentic products.",
+        dishes: [],
+        long: -0.1323491652193389,
+        lat: 51.51923880936022,
       },
     ],
   },
@@ -200,34 +173,27 @@ export const FEATURED_CATEGORIES_MOCK = [
       {
         id: "123",
         imgUrl:
-          "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8&w=1000&q=80",
+          "https://cdn.pixabay.com/photo/2014/09/17/20/26/restaurant-449952_960_720.jpg",
         title: "Yo! Sushi",
         rating: 4.5,
         genre: "Japanese",
         address: "123 Main St",
-        short_description: "This is a test description",
-        dishes: [
-          {
-            id: "1",
-            name: "Nigiri",
-            short_description:
-              "A topping, usually fish, served on top of sushi rice",
-            price: 2.99,
-            image: "https://cdn.diferenca.com/imagens/niguiri-0-cke.jpg",
-          },
-        ],
-        long: 20,
-        lat: 0,
+        short_description:
+          "Explore our menu for dishes made from the freshest ingredients, sustainably-sourced seafood and authentic products.",
+        dishes: [],
+        long: -0.1323491652193389,
+        lat: 51.51923880936022,
       },
       {
         id: "321",
         imgUrl:
-          "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8&w=1000&q=80",
+          "https://cdn.pixabay.com/photo/2016/11/29/05/07/breads-1867459_960_720.jpg",
         title: "Yo! Sushi",
         rating: 4.5,
         genre: "Japanese",
         address: "123 Main St",
-        short_description: "This is a test description",
+        short_description:
+          "Explore our menu for dishes made from the freshest ingredients, sustainably-sourced seafood and authentic products.",
         dishes: [
           {
             id: "1",
@@ -238,30 +204,22 @@ export const FEATURED_CATEGORIES_MOCK = [
             image: "https://cdn.diferenca.com/imagens/niguiri-0-cke.jpg",
           },
         ],
-        long: 20,
-        lat: 0,
+        long: -0.1323491652193389,
+        lat: 51.51923880936022,
       },
       {
         id: "213",
         imgUrl:
-          "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8&w=1000&q=80",
+          "https://cdn.pixabay.com/photo/2017/03/29/20/58/maki-roll-2186518_960_720.jpg",
         title: "Yo! Sushi",
         rating: 4.5,
         genre: "Japanese",
         address: "123 Main St",
-        short_description: "This is a test description",
-        dishes: [
-          {
-            id: "1",
-            name: "Nigiri",
-            short_description:
-              "A topping, usually fish, served on top of sushi rice",
-            price: 2.99,
-            image: "https://cdn.diferenca.com/imagens/niguiri-0-cke.jpg",
-          },
-        ],
-        long: 20,
-        lat: 0,
+        short_description:
+          "Explore our menu for dishes made from the freshest ingredients, sustainably-sourced seafood and authentic products.",
+        dishes: [],
+        long: -0.1323491652193389,
+        lat: 51.51923880936022,
       },
     ],
   },
